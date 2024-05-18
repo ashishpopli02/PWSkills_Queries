@@ -5,15 +5,15 @@ class Listops():
         l = self.l
         l1 = []
         for i in l:
-            if 1 % 2 == 0:
+            if i % 2 == 0:
                 l1.append(i)
         return l1
     def extract_odd(self):
         l = self.l
         l1 = []
         for i in l:
-            if 1 % 2 != 0:
+            if i % 2 != 0:
                 l1.append(i)
         return l1
 ops1 = Listops([1, 2, 3, 4, 5, 6])
-ops1.extract_even()
+print(ops1.extract_even())

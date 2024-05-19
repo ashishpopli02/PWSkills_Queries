@@ -1,0 +1,9 @@
+class Student:
+    def __init__(self, name, price):
+        self.__name = name
+        self.__price = price
+    def access_price(self):
+        return self.__price
+stud = Student("Ajay", 2000)
+print(stud._Student__name)
+print(stud.access_price())
